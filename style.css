@@ -2,3 +2,47 @@
     padding: 0;
     margin: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Ubuntu+Mono:wght@700&family=Water+Brush&display=swap');
+/*font-family: 'Patrick Hand', cursive;*/
+
+
+/*nav bar inicio*/
+.container-fluid {
+    background: rgb(136,131,126);
+    background: linear-gradient(0deg, rgba(136,131,126,1) 0%, rgba(246,180,83,0.8153079649661681) 100%);    margin-top: 90px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    z-index: 2;
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+}
+
+.nav-link {
+    margin-left: 40px;
+    text-decoration: none;
+    }
+/*nav-link animacion*/
+.nav-link:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 1s;
+}
+
+/*INICIO MAIN FOTOS Y PARRAFO*/
+.principal {
+    background-image: url(imagenes/pexels-andrew-neel-2859169.jpg);
+    width: 100%;
+    padding: 250px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parrafo-fotos {
+    font-weight: bold;
+    font-size: larger;
+    margin-top: -50px;
+}
