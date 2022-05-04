@@ -13,8 +13,11 @@
 }
 .container-fluid {
     height: 40px;
+    background-color: #b56306;
+    /*
     background: rgb(136,131,126);
-    background: linear-gradient(0deg, rgba(136,131,126,1) 0%, rgba(246,180,83,0.8153079649661681) 100%);    margin-top: 90px;
+    background: linear-gradient(0deg, rgba(136,131,126,1) 0%, rgba(246,180,83,0.8153079649661681) 100%);*/
+    margin-top: 90px;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -128,6 +131,6 @@ align-items: baseline;
     .fotos-chalten {
         display: flex;
         flex-direction: row;
-        
+
     }
 
