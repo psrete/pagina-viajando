@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"> <img src="./imagenes/logokm0.png" alt="logo"
                         height="50px"></a>
@@ -61,28 +61,37 @@
 
     <footer>
         <section class="footer">
-            <div class="mb-3">
-                <label for="formGroupExampleInput" class="form-label"></label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Viajamos? tu email:">
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <button class="btn btn-success" type="button">enviar</button>
+                </div>
+                <input type="text" class="form-control" placeholder="email viajero" aria-label="" aria-describedby="basic-addon1">
             </div>
-            <div class="mb-3">
-                <label for="formGroupExampleInput2" class="form-label"></label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="mas info? tu numero:">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="telefono viajero" aria-label="" aria-describedby="basic-addon1">
+                <div class="input-group-append">
+                    <button class="btn btn-success" type="button">enviar</button>
+                </div>
             </div>
+
+
+
             <div>
                 <ul class="iconos-lista">
                     <!--imagenes de iconos y link-->
-                    <li> <a href="http://instagram.com/pablo"> <img src="imagenes/logo instagram.png" width="40"
-                                alt="instagram"></a>
+                    <li class="icono"> <a href="http://instagram.com/pablo"> <img src="imagenes/logo instagram.png"
+                                width="40" alt="instagram"></a>
                     </li>
-                    <li> <a href="http://whatsapp"> <img src="imagenes/icono whatsapp.png" width="40" alt="whatsapp">
+                    <li class="icono"> <a href="http://whatsapp"> <img src="imagenes/icono whatsapp.png" width="40"
+                                alt="whatsapp">
                         </a>
                     </li>
-                    <li> <a href="http://puertodeseado.com"> ><img src="imagenes/icono pinguino.png" width="40"
-                                alt="pinguinos"> </a>
+                    <li class="icono"> <a href="http://puertodeseado.com"> <img src="imagenes/icono pinguino.png"
+                                width="40" alt="pinguinos"> </a>
                     </li>
-                    <li> <a href="https://photos.google.com/"> <img src="imagenes/icono perros.png" width="40"
-                                alt="fotos Lio y Tita"> </a>
+                    <li class="icono"> <a href="https://photos.google.com/"> <img src="imagenes/icono perros.png"
+                                width="40" alt="fotos Lio y Tita"> </a>
                     </li>
                 </ul>
             </div>
