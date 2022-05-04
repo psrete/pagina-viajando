@@ -40,7 +40,6 @@
 
 /*footer*/
 .footer-back {
-    /*background: khaki;*/
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -77,12 +76,6 @@ align-items: baseline;
     margin-left: 20px;
 }
 
-.formulario-viajamos-kilometros {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: green;
-    margin-left: 90px;
-}
-
 
 /*FIN DEL FOOTER*/
 
@@ -101,3 +94,40 @@ align-items: baseline;
     font-size: larger;
     margin-top: -50px;
 }
+/*FIN MAIN FOTOS Y PARRAFO*/
+
+/*inicio chalten.html*/
+    /*pagina chalten*/
+    .fotos-videos-chalten {
+        background-image: url(imagenes/pexels-andrew-neel-2859169.jpg);
+        width: 100%;
+        padding: 250px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        height: 650px;
+        row-gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .parrafo-video {
+        height: 200px;
+        box-sizing: 100px 100px;
+        color: antiquewhite;
+        font-size: 20px;
+        font-weight: bold;
+        z-index: 1;
+    }
+
+    .fotos-chalten {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
