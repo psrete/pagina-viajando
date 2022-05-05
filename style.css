@@ -1,7 +1,8 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Ubuntu+Mono:wght@700&family=Water+Brush&display=swap');
 /*font-family: 'Patrick Hand', cursive;*/
 
@@ -11,15 +12,16 @@
     height: 50px;
     width: 90%;
 }
+
 .general-container {
     height: 40px;
     background-color: #b56306;
     /*
     background: rgb(136,131,126);
     background: linear-gradient(0deg, rgba(136,131,126,1) 0%, rgba(246,180,83,0.8153079649661681) 100%);*/
-    margin-top: 90px;
+    margin-top: 10px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     position: fixed;
@@ -33,7 +35,8 @@
     margin-left: 40px;
     text-decoration: none;
     color: antiquewhite;
-    }
+}
+
 /*nav-link animacion*/
 .item-navbar:hover {
     transform: scale(1.2, 1.2);
@@ -51,6 +54,7 @@
     flex-direction: column;
 
 }
+
 /*
 .mb-3 {
     width: 40%;
@@ -64,7 +68,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-align-items: baseline;
+    align-items: baseline;
     margin-left: 197px;
     justify-content: center;
 }
@@ -76,6 +80,7 @@ align-items: baseline;
     margin-right: 100px;
     column-gap: 20px;
 }
+
 .icono {
     margin-left: 20px;
 }
@@ -93,54 +98,56 @@ align-items: baseline;
     justify-content: center;
     align-items: center;
 }
+
 .parrafo-fotos {
     font-weight: bold;
     font-size: larger;
     margin-top: -50px;
 }
+
 /*FIN MAIN FOTOS Y PARRAFO*/
 
 /*inicio chalten.html*/
-    /*pagina chalten*/
-    .fotos-videos-chalten {
-        background-image: url(imagenes/pexels-andrew-neel-2859169.jpg);
-        width: 100%;
-        /*padding: 250px;*/
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        align-items: center;
-        justify-items: center;
-        height: 650px;
-        row-gap: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
+/*pagina chalten*/
+.fotos-videos-chalten {
+    background-image: url(imagenes/pexels-andrew-neel-2859169.jpg);
+    width: 100%;
+    /*padding: 250px;*/
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    height: 650px;
+    row-gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
 
-    .parrafo-video {
-        height: 200px;
-        box-sizing: 100px 100px;
-        color: antiquewhite;
-        font-size: 20px;
-        font-weight: bold;
-        z-index: 1;
-    }
+.parrafo-video {
+    height: 200px;
+    box-sizing: 100px 100px;
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
+}
 
-    .fotos-chalten {
-        display: flex;
-        flex-direction: row;
+.fotos-chalten {
+    display: flex;
+    flex-direction: row;
 
-    }
+}
 
 /*pagina el viaje*/
 .foto-a-galeria {
     background-image: url(imagenes/pexels-luis-del-río-15286.jpg);
     width: 100%;
     padding: 250px;
-   display: grid;
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     display: flex;
@@ -154,16 +161,17 @@ align-items: baseline;
     width: 150px;
     height: 100px;
     padding: 5px;
-  }
+}
 
-  .mapa-borde {
-      border: solid antiquewhite 2px;
-  }
+.mapa-borde {
+    border: solid antiquewhite 2px;
+}
+
 .titulo-vitacora {
     color: antiquewhite;
     font-weight: bold;
     font-size: larger;
-margin: 3px 3px;
+    margin: 3px 3px;
 }
 
 .texto-vitacora {
@@ -178,3 +186,39 @@ margin: 3px 3px;
 }
 
 /*pagina viajando end*/
+
+/*pagina la compania*/
+.titulos-fotos-perros {
+    background-image: url(./imagenes/pexels-luis-del-río-15286.jpg);
+    width: 100%;
+    padding: 250px;
+
+}
+
+/*pagina viajamos fomulario*/
+
+.formulario {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr;
+    justify-content: flex-end;
+    color: antiquewhite;
+    font-weight: bold;
+    height: 250px;
+    margin-left: 80px;
+    }
+.viajamos {
+    background-image: url(imagenes/pexels-mehmood-yousafzai-2730356.jpg);
+    width: 90%;
+    height: auto;
+    margin-top: -30px;
+}
+.titulos-fotos {
+    margin: 30px;
+    color: antiquewhite;
+    font-weight: bold;
+    width: 80%;
+    align-items: center;
+    padding: 25px;
+}

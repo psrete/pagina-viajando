@@ -1,91 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style1.css">
-    <link rel="shortcut icon" href="../imagenes/favicon-32x32.png" type="image/x-icon">
-    <title>la compañia</title>
-    </head>
+    <link rel="shortcut icon" href="../proyecto final/imagenes/favicon-32x32.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../style.css">
 
-    <body>
-        <header>
-            <nav>
-            <!--menu de inicio-->
-            <div class="menu">
-                    <div>
-                    <a href="./index.html"> <img src="../imagenes/logokm0.png" alt="logo" height="80px"</a>
+    <title>le compañia</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light nav-general">
+            <div class="container-fluid general-container">
+                <a class="navbar-brand" href="index.html"> <img src="./imagenes/logokm0.png" alt="logo"
+                        height="50px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link item-navbar" href="/pages/elchalten.html">el chalten</a>
+                        <a class="nav-link item-navbar" href="/pages/el-viaje.html">el viaje</a>
+                        <a class="nav-link item-navbar" href="/pages/la-compania.html">les acompañantes</a>
+                        <a class="nav-link item-navbar" href="../pages/viajamos.html">próximo destino</a>
                     </div>
-                    <div class="lista-menu">
-                        <div class="item">  
-                         <a href="pages/chalten.html">el chalten</a>
-                        </div>
-                        <div class="item">  
-                        <a href="pages/el-viaje.html"> por las rutas</a>
-                        </div>
-                        <div class="item">  
-                        <a href="pages/la-compania.html"> la compañia perruna</a>
-                        </div>
-                        <div class="item">
-                        <a href="pages/viajamos.html"> y si viajamos</a>
-                        </div>
-                    </div>
-            </div>   
-            </nav>
-        </header>
-        
-        <main>
-    <!--parte principal-->
-    <section class="titulos-fotos-perros">
-        <div>
-            <h1 class="titulos-fotos">fieles, aguantadores, incondicionales, 10 años de viaje
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia at, placeat veniam expedita repellendus ut similique temporibus accusamus, et eveniet eum, quaerat laboriosam qui sunt consequatur autem obcaecati unde rem.
-            </h1>
-        </div>
-     <!--las dos fotos y sus enlaces a los albumes en google-->
-        <div>
-            <a href="https://photos.google.com/">  <img src="../imagenes/pinguino-solo (1).jpg" width="150"  height="150"   alt="LIO">    
-            </a>
-            <a href="https://photos.google.com/"> <img src="../imagenes/perros-deseado.jpg" width="150"  height="150"  alt="TITA">
-            </a>    
-        </div>
-    </section>
-    
-</main>                   
-            
-            
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--fin de header-->
 
-<footer>
-    <!--link a formulario-->
-    <section class="footer-back">
-        <div> 
-            <form class="formulario-viajamos-kilometros">
-            <label for="email">viajamos? dejame tu email:</label>	
-            <input type="text" name="email" />
-            
-            <label for="regalarkm">me regalas km? deja tu numero:</label>	
-            <input type="text" name="regalarkm" />
-            </form>
-        </div>
+    <main>
+        <!--parte principal-->
+        <section>
+            <div class="titulos-fotos-perros">
+                <div>
+                    <h1 class="titulos-fotos">fieles, aguantadores, incondicionales, 10 años de viaje
+                    </h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem iure dolores ipsam minus
+                        eaque quam cumque saepe consequuntur odit ullam distinctio nisi corrupti repudiandae nihil, quis
+                        ratione qui. Quod, vero?</p>
+                </div>
+                <!--las dos fotos y sus enlaces a los albumes en google-->
+                <div>
+                    <a href="https://photos.google.com/"> <img src="../imagenes/pinguino-solo (1).jpg" width="150"
+                            height="150" alt="LIO">
+                    </a>
+                    <a href="https://photos.google.com/"> <img src="../imagenes/perros-deseado.jpg" width="150"
+                            height="150" alt="TITA">
+                    </a>
+                </div>
+            </div>
+        </section>
 
-        <div>
-            <ul class="iconos-lista">
-            <!--imagenes de iconos y link-->
-                <li> <a href="http://instagram.com/pablo"> <img src="../imagenes/logo instagram.png" width="40" alt="instagram"></a>
-                </li>
-                <li> <a href="http://whatsapp"> <img src="../imagenes/icono whatsapp.png" width="40" alt="whatsapp"> </a>
-                </li>
-                <li> <a href="http://puertodeseado.com"> ><img src="../imagenes/icono pinguino.png" width="40" alt="pinguinos"> </a>
-                </li>
-                <li> <a href="https://photos.google.com/"> <img src="../imagenes/icono perros.png" width="40" alt="fotos Lio y Tita"> </a>
-                </li>
-            </ul>
-        </div>
-    </section>
-</footer>
+    </main>
 
 
-    </body>
+
+    <!-- inicio footer-->
+    <footer>
+        <section class="footer">
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <button class="btn btn-success" type="button">enviar</button>
+                </div>
+                <input type="text" class="form-control" placeholder="email viajero" aria-label=""
+                    aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="telefono viajero" aria-label=""
+                    aria-describedby="basic-addon1">
+                <div class="input-group-append">
+                    <button class="btn btn-success" type="button">enviar</button>
+                </div>
+            </div>
+            <div>
+                <ul class="iconos-lista">
+                    <!--imagenes de iconos y link-->
+                    <li class="icono"> <a href="http://instagram.com/pablo"> <img src="../imagenes/logo instagram.png"
+                                width="40" alt="instagram"></a>
+                    </li>
+                    <li class="icono"> <a href="http://whatsapp"> <img src="../imagenes/icono whatsapp.png" width="40"
+                                alt="whatsapp">
+                        </a>
+                    </li>
+                    <li class="icono"> <a href="http://puertodeseado.com"> <img src="../imagenes/icono pinguino.png"
+                                width="40" alt="pinguinos"> </a>
+                    </li>
+                    <li class="icono"> <a href="https://photos.google.com/"> <img src="../imagenes/icono perros.png"
+                                width="40" alt="fotos Lio y Tita"> </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+    <!-- SCRIPTS -->
+    <!--script bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+
+</body>
