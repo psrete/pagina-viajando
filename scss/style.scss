@@ -18,8 +18,9 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-}
-.item-navbar {
-    margin-left: $item-margen;
-    text-decoration: $item-decoration;
+    margin-top: $margin-top;
+    .item-navbar {
+        margin-left: $item-margen;
+        text-decoration: $item-decoration;
+    }
 }

@@ -7,17 +7,17 @@
   position: fixed;
   z-index: 5;
   width: 100%;
-  height: 50px;
+  height: 85px;
   background-color: #b56306;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: bold;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  margin-top: 4rem;
 }
-
-.item-navbar {
+.general-container .item-navbar {
   margin-left: 20px;
   text-decoration: none;
 }
