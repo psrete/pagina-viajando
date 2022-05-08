@@ -1,5 +1,25 @@
-@import "./generales/imagenes"
+@import "./generales/imagenes";
+@import "./generales/header";
 
 .item-foto-chalten {
     flex: $medidaImagen;
+    border: $borde;
+}
+
+.general-container {
+    position: $position-header;
+    z-index: $index-header;
+    width: $width-header;
+    height: $height;
+    background-color: $back;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.item-navbar {
+    margin-left: $item-margen;
+    text-decoration: $item-decoration;
 }
