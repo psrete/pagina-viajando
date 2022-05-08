@@ -29,6 +29,7 @@
     font-weight: bold;
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
+    color: antiquewhite;
 }
 
 .item-navbar {
@@ -92,7 +93,8 @@
 .principal {
     background-image: url(imagenes/pexels-andrew-neel-2859169.jpg);
     width: 100%;
-    padding: 250px;
+   /* padding: 250px;*/
+   height: 800px;
     color: antiquewhite;
     display: flex;
     justify-content: center;
