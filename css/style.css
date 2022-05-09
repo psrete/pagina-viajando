@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .item-foto-chalten {
   flex: 0 1 320px;
   border: solid 1px black;
@@ -20,6 +21,38 @@
 .general-container .item-navbar {
   margin-left: 20px;
   text-decoration: none;
+}
+
+.foto-a-galeria {
+  background-image: url(../imagenes/pexels-luis-del-río-15286.jpg);
+  height: 1000px;
+  width: 100%;
+  margin-top: 65px;
+  padding: 78px;
+  column-gap: 40px;
+}
+
+.titulo-vitacora {
+  font-size: 35px;
+  font-weight: bolder;
+  color: antiquewhite;
+}
+
+.foto-a-galeria {
+  padding: 250px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.mapa-float {
+  float: left;
+  width: 100%;
+  height: 150px;
+  padding: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
