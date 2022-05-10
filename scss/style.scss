@@ -1,9 +1,10 @@
 @import "./generales/imagenes";
 @import "./generales/header";
+@import "./componentes/galeria";
 
 .item-foto-chalten {
     flex: $medidaImagen;
-    border: $borde;
+   // border: $borde;//
 }
 
 .general-container {
@@ -132,7 +133,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    align-items: baseline;
+    align-items: center;
     //margin-left: 197px;
     justify-content: center;
     background-color: #b56306;
@@ -159,25 +160,33 @@ header {
     width: 100%;
    /* padding: 250px;*/
    height: 800px;
-    color: antiquewhite;
+    color: #351f02;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.parrafo-fotos {
+.parrafo {
+    color:#351f02;
+    align-self: center;
+}
+.parrafo-fotos  {
     font-weight: bold;
     font-size: larger;
     margin-top: -50px;
+    color: #351f02;
 }
 
 /*FIN MAIN FOTOS Y PARRAFO*/
 
 /*inicio chalten.html*/
 /*pagina chalten*/
-.fotos-videos-chalten {
+.back-chalten {
     background-image: url(../imagenes/back-soleado.jpg);
     width: 100%;
+
+}
+.fotos-videos-chalten {
+    
     /*padding: 250px;*/
     display: grid;
     grid-template-columns: 1fr;
@@ -206,15 +215,16 @@ header {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 
 }
 
-/*pagina el viaje*/
+/*pagina el viaje el-viaje-html*/
 .foto-a-galeria {
     background-image: url(../imagenes/back-con-laguna.jpg);
     width: 100%;
-    padding: 250px;
+   // padding: 250px;
+   height: 800px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -226,13 +236,13 @@ header {
 .mapa-float {
     float: left;
     margin-left: 15px;
-    width: 150px;
-    height: 100px;
-    padding: 5px;
+   // width: 150px;
+  //  height: 100px;
+   // padding: 5px;
 }
 
 .mapa-borde {
-    border: solid antiquewhite 2px;
+    border: solid antiquewhite 10px;
 }
 
 .titulo-vitacora {
