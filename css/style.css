@@ -42,6 +42,47 @@
   float: left;
 }
 
+/*inicio chalten.html*/
+/*pagina chalten*/
+.back-chalten {
+  background-image: url(../imagenes/back-soleado.jpg);
+  width: 100%;
+}
+
+.fotos-videos-chalten {
+  /*padding: 250px;*/
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  height: 750px;
+  row-gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.parrafo-video {
+  height: 130px;
+  box-sizing: 100px 100px;
+  color: antiquewhite;
+  font-size: 28px;
+  font-weight: bold;
+  z-index: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.fotos-chalten {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
 .item-foto-chalten {
   flex: 0 1 320px;
 }
@@ -191,7 +232,7 @@ header {
   grid-template-rows: 1fr 1fr;
   align-items: center;
   justify-items: center;
-  height: 650px;
+  height: 800px;
   row-gap: 10px;
   display: flex;
   justify-content: center;

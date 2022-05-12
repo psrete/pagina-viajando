@@ -2,6 +2,7 @@
 @import "./generales/header";
 @import "./componentes/galeria";
 @import "./componentes/elViaje";
+@import "./componentes/elChalten";
 
 
 .item-foto-chalten {
@@ -167,7 +168,7 @@ header {
     grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-items: center;
-    height: 650px;
+    height: 800px;
     row-gap: 10px;
     display: flex;
     justify-content: center;
