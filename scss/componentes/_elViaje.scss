@@ -1,29 +1,47 @@
 //pagina el-viaje.html//
 .foto-a-galeria {
-    // flex: $medidaImagen;
-    // border: $borde;
-     background-image: url(/imagenes/pexels-luis-del-río-15286.jpg);
-  height: $back-height;
-  width: $back-width;
-  margin-top: 65px;
-  padding: 78px;
-  column-gap: 40px;
- }
- 
- .titulo-vitacora { 
-     font-size: $h1-size;
-     font-weight: $h1-weight;
-     color: $h1-color;
- }
- .foto-a-galeria {
-     padding: 250px;
-     display: grid;
-     grid-template-columns: 1fr;
-     float: left;
-    // margin-left: 15px;
-   //  margin-right: 15px;
-     width: 100%;
-     height: 150px;
-     padding: 5px;
- }
- 
+    background-image: url(../imagenes/back-camino-bosque.jpg);
+    height: 1200px;
+    width: 100%;
+    //margin-top: 65px;
+   padding: 50px;
+    column-gap: 40px;
+}
+
+.chalten-gral {
+        display: flex;
+    flex-flow: wrap;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-vitacora {
+    font-size: $h1-size;
+    font-weight: $h1-weight;
+    color: antiquewhite;
+    margin: 26px;
+}
+//.fotos-chalten {
+    //margin: 20px;
+ //}
+
+.fotos-chalten:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1s;
+}
+.texto-vitacora {
+    margin: 26px;
+}
+.foto-texto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 38px;
+
+}
+
+.mapa-float {
+    float: left;
+}
+

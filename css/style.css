@@ -1,5 +1,47 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Ubuntu+Mono:wght@700&family=Water+Brush&display=swap");
+.foto-a-galeria {
+  background-image: url(../imagenes/back-camino-bosque.jpg);
+  height: 1200px;
+  width: 100%;
+  padding: 50px;
+  column-gap: 40px;
+}
+
+.chalten-gral {
+  display: flex;
+  flex-flow: wrap;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-vitacora {
+  font-size: 35px;
+  font-weight: bolder;
+  color: antiquewhite;
+  margin: 26px;
+}
+
+.fotos-chalten:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 1s;
+}
+
+.texto-vitacora {
+  margin: 26px;
+}
+
+.foto-texto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 38px;
+}
+
+.mapa-float {
+  float: left;
+}
+
 .item-foto-chalten {
   flex: 0 1 320px;
 }
@@ -21,31 +63,6 @@
 .general-container .item-navbar {
   margin-left: 20px;
   text-decoration: none;
-}
-
-.foto-a-galeria {
-  background-image: url(/imagenes/pexels-luis-del-río-15286.jpg);
-  height: 1000px;
-  width: 100%;
-  margin-top: 65px;
-  padding: 78px;
-  column-gap: 40px;
-}
-
-.titulo-vitacora {
-  font-size: 35px;
-  font-weight: bolder;
-  color: antiquewhite;
-}
-
-.foto-a-galeria {
-  padding: 250px;
-  display: grid;
-  grid-template-columns: 1fr;
-  float: left;
-  width: 100%;
-  height: 150px;
-  padding: 5px;
 }
 
 * {
@@ -199,46 +216,6 @@ header {
   justify-content: center;
 }
 
-/*pagina el viaje el-viaje-html*/
-.foto-a-galeria {
-  background-image: url(../imagenes/back-con-laguna.jpg);
-  width: 100%;
-  height: 800px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-evenly;
-}
-
-.mapa-float {
-  float: left;
-  margin-left: 15px;
-}
-
-.mapa-borde {
-  border: solid antiquewhite 10px;
-}
-
-.titulo-vitacora {
-  color: antiquewhite;
-  font-weight: bold;
-  font-size: larger;
-  margin: 3px 3px;
-}
-
-.texto-vitacora {
-  color: antiquewhite;
-  font-weight: bold;
-  font-size: larger;
-  font-style: italic;
-  width: 400px;
-  height: 200px;
-  margin: 3px 3px;
-}
-
-/*pagina viajando end*/
 /*pagina la compania*/
 .titulos-fotos-perros {
   background-image: url(../imagenes/back-camino-bosque.jpg);
