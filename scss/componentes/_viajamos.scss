@@ -1,0 +1,29 @@
+/*pagina viajamos fomulario*/
+
+.formulario {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 25px;  
+    justify-content: flex-end;
+    color: antiquewhite;
+    font-weight: bold;
+    height: 250px;
+    margin-left: 80px;
+    margin-top: 42px;
+    }
+.viajamos {
+    background-image: url(imagenes/pexels-mehmood-yousafzai-2730356.jpg);
+    width: 100%;
+    height: 1100px;
+   
+}
+.titulos-fotos {
+    margin-top: 30px;
+    padding: 50px;
+    color: antiquewhite;
+    font-weight: bold;
+    width: 80%;
+    align-items: center;
+    
+}
