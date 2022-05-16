@@ -1,0 +1,33 @@
+/*pagina viajamos fomulario*/
+.item-formulario:hover {
+    font-style: italic;
+}
+.animate__animated.animate__fadeIn {
+    --animate-duration: 2s;
+  }
+.formulario {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr;
+    justify-content: flex-end;
+    color: antiquewhite;
+    font-weight: bold;
+    height: 250px;
+    margin-left: 80px;
+    }
+    
+.viajamos {
+    background-image: url(../imagenes/pexels-mehmood-yousafzai-2730356.jpg);
+    width: 100%;
+    height: auto;
+    margin-top: -30px;
+}
+.titulos-fotos {
+    margin: 30px;
+    color: antiquewhite;
+    font-weight: bold;
+    width: 80%;
+    align-items: center;
+    padding: 25px;
+}
