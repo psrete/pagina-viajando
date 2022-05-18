@@ -42,6 +42,10 @@
   float: left;
 }
 
+.btn {
+  margin-left: 40%;
+}
+
 /*inicio chalten.html*/
 /*pagina chalten*/
 .back-chalten {
@@ -110,9 +114,6 @@
 
 .h2 {
   font-weight: bolder;
-  -webkit-box-shadow: 10px 24px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 24px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 24px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 /*h1 {
@@ -229,7 +230,32 @@ p {
 
 /*FIN DEL FOOTER*/
 @media screen and (max-width: 550px) {
+  .titulos-texto {
+    margin-left: 24%;
+    width: 60%;
+  }
+
   .icono {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .calesita {
+    margin-bottom: 0%;
+    height: 24%;
+    margin-top: 16%;
+  }
+
+  .foto-texto {
+    flex-direction: column;
+  }
+
+  .chalten-gral {
+    display: none;
+  }
+}
+@media screen and (min-width: 800px) {
+  .boton-imagenes-viaje {
     display: none;
   }
 }
