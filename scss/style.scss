@@ -5,6 +5,8 @@
 @import "./componentes/elChalten";
 @import "./componentes/la-compania";
 @import "./componentes/viajamos";
+@import "./generales/footer";
+@import "./generales/queries";
 
 
 .item-foto-chalten {
@@ -104,32 +106,6 @@ header {
 
 }
 */
-.footer {
-
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    align-items: center;
-    //margin-left: 197px;
-    justify-content: center;
-    background-color: #b56306;
-}
-
-.iconos-lista {
-    list-style: none;
-    display: flex;
-    align-items: flex-end;
-    margin-right: 100px;
-    column-gap: 20px;
-}
-
-.icono {
-    margin-left: 20px;
-}
-
-
-/*FIN DEL FOOTER*/
 
 /*INICIO MAIN FOTOS Y PARRAFO index.html*/
 .principal {

@@ -205,6 +205,34 @@ p {
   align-items: center;
 }
 
+.footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+  background-color: #b56306;
+}
+
+.iconos-lista {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 100px;
+  column-gap: 20px;
+}
+
+.icono {
+  margin-left: 20px;
+}
+
+/*FIN DEL FOOTER*/
+@media screen and (max-width: 550px) {
+  .icono {
+    display: none;
+  }
+}
 .item-foto-chalten {
   flex: 0 1 320px;
 }
@@ -292,29 +320,6 @@ header {
 
 }
 */
-.footer {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  align-items: center;
-  justify-content: center;
-  background-color: #b56306;
-}
-
-.iconos-lista {
-  list-style: none;
-  display: flex;
-  align-items: flex-end;
-  margin-right: 100px;
-  column-gap: 20px;
-}
-
-.icono {
-  margin-left: 20px;
-}
-
-/*FIN DEL FOOTER*/
 /*INICIO MAIN FOTOS Y PARRAFO index.html*/
 .principal {
   background-image: url(../imagenes/back-soleado-2.jpg);

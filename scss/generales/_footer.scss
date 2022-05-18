@@ -1,0 +1,26 @@
+.footer {
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    //margin-left: 197px;
+    justify-content: center;
+    background-color: #b56306;
+}
+
+.iconos-lista {
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 100px;
+    column-gap: 20px;
+}
+
+.icono {
+    margin-left: 20px;
+}
+
+
+/*FIN DEL FOOTER*/
