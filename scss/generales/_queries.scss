@@ -10,22 +10,31 @@
 }
 
 @media screen and (max-width: 800px) {
-    .calesita {
-        margin-bottom: 0%;
-        height: 24%;
-        margin-top: 16%;
-    }
-    .foto-texto {
-        flex-direction: column;
-    }
-    .chalten-gral {
-        display: none;
-    }
-}
+    .titulos-texto {
+        margin-left: 24%;
+        width: 60%;
+    }}
 
-@media screen and (min-width: 800px)
-{
-    .boton-imagenes-viaje {
-        display: none;
+    @media screen and (max-width: 800px) 
+    {
+        .calesita {
+            margin-bottom: 0%;
+            height: 24%;
+            margin-top: 16%;
+        }
+
+        .foto-texto {
+            flex-direction: column;
+        }
+
+        .chalten-gral {
+            display: none;
+        }
     }
-} 
+
+    @media screen and (min-width: 800px) 
+    {
+        .boton-imagenes-viaje {
+            display: none;
+        }
+    }

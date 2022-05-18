@@ -240,6 +240,12 @@ p {
   }
 }
 @media screen and (max-width: 800px) {
+  .titulos-texto {
+    margin-left: 24%;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 800px) {
   .calesita {
     margin-bottom: 0%;
     height: 24%;
@@ -259,6 +265,11 @@ p {
     display: none;
   }
 }
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
 .item-foto-chalten {
   flex: 0 1 320px;
 }
